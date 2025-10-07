@@ -13,7 +13,7 @@ public class Room {
     private String  roomId;
     @Column(name = "room_number", length = 80, nullable = false)
     private String roomNumber;
-    @Column(name = "type", length = 80, nullable = false)
+    @Column(name = "room_type", length = 80, nullable = false)
     private String type;
     @Column(name = "bed_count")
     private int bedCount;
